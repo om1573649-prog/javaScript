@@ -1,0 +1,98 @@
+body{
+    background-color: #E8E0D0;
+    color: #222;
+}
+nav {
+    text-align: center;
+}
+nav h1 {
+    color :#d4af37;
+}
+nav a {
+    display: inline-block;
+    color: blue;
+    font-size: 24px ;
+    text-decoration: none;
+
+    background-color: #e0e0e0;
+    padding: 15px 30px;
+    margin: 0 90px;
+    transform: 0.3s;
+    
+}
+header{
+    background-color: black;
+    color: #d4af37;
+    text-align: center;
+    padding: 50px 20px;
+}
+article{
+    background-color: #eee;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+}
+article h2{
+    color: #d4af37;
+}
+article ul {
+    font-size: 18px;
+}
+table{
+    margin: 30px auto;
+    border-collapse: collapse ;
+}
+th , td {
+    border: 1px solid black;
+    padding: 15px 30px;
+    text-align: center;
+
+}
+th {
+    color: #d4af37;
+    background-color: black;
+}
+td{
+    background-color: #eee;
+}
+footer{
+    background-color: #333;
+    color:wheat   ;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 40px;
+}
+footer h2{
+    color: #d4af37;
+}
+footer p{
+    margin: 5px ;
+}
+footer a{
+    color : white;
+}
+form{
+    text-align: center;
+}
+from label{
+    display: block;
+    color: #d4af37;
+    margin-top: 15px;
+    text-align: center;
+}
+from input , form textarea{
+    display: block;
+    margin: 5px auto;
+    background-color: white;
+    padding: 10px;
+}
+from button{
+    margin: 15px;
+    padding: 10px 25 px;
+}
+.message{
+   text-align: left;
+    display: block;
+
+}
