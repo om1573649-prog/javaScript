@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../js/data.js" defer></script>
+    <title>Data Table</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a
+        class="logo"
+        href="C:\Users\ITLEGEND\OneDrive\Desktop\project\javaScript_assignment\html\validation.html"
+        >Register</a
+      >
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li>
+            <a
+              href="C:\Users\ITLEGEND\OneDrive\Desktop\project\javaScript_assignment\html\validation.html"
+              >Home</a
+            >
+          </li>
+          <li><a class="active" href="data.html">Components</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="data-container">
+      <h1>Users Data</h1>
+
+      <div class="controls">
+        <label for="searchInput">Search by name or email</label>
+        <input type="search" id="searchInput" placeholder="Type to search..." />
+
+        <button type="button" id="sortNameButton">Sort by Name</button>
+
+        <button type="button" id="sortAgeButton">Sort by Age</button>
+      </div>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody id="usersTableBody"></tbody>
+        </table>
+      </div>
+
+      <p id="emptyMessage" role="status"></p>
+    </main>
+  </body>
+</html>
